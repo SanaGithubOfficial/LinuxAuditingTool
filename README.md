@@ -19,9 +19,11 @@ Useful for system administrators and SOC analysts.
 - Python 3.x
 - Root or sudo access
 - create a folder in /root with name ~/linux_audit_tool and create more three folders in it by name /logs, /scripts, /reports
+- install auditd, lynis, ufw, iptables, chkrootkit, openscap-scanner by using command below
 
 ### Installation
 
 ```bash
+sudo apt auditd lynis ufw iptables chkrootkit openscap-scanner -y
 cd linux-auditing-tools
 python3 network_audit.py
