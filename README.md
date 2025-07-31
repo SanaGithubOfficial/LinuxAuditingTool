@@ -18,6 +18,7 @@ Useful for system administrators and SOC analysts.
 - Linux system (Ubuntu/Debian preferred)
 - Python 3.x
 - Root or sudo access
+- create a folder in /root with name ~/linux_audit_tool and create more three folders in it by name /logs, /scripts, /reports
 
 ### Installation
 
